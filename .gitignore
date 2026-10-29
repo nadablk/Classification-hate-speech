@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Datasets and generated artifacts
+data/*
+!data/README.md
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+*.keras
+checkpoints/
+models/
+*_finetuned/
+*-finetuned/
+mbert_trilingual_hatespeech/
+arabert-finetuned/
+qarib-finetuned/
+logs/
+wandb/
+mlruns/
+
+# Generated notebook figures and outputs
+results/*
+!results/figures/
+!results/figures/README.md
+fig*.png
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
